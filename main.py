@@ -14,7 +14,7 @@ holistic = mp.solutions.holistic
 holis = holistic.Holistic()
 drawing = mp.solutions.drawing_utils
 
-st.header("Emotion Based Music Recommender")
+st.header("Emotion Based Music Recomendation System")
 
 if "run" not in st.session_state:
 	st.session_state["run"] = "true"
